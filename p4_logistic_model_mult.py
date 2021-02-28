@@ -46,5 +46,5 @@ for Ph, lbl in zip(Pharvest, labels):
     plt.plot(t, Ph, label='h=' + lbl)
 
 plt.legend(loc='best')
-plt.savefig('p4_logistic_model_%ddays_mult.png' % steps, dpi=300, bbox_inches='tight')
+# plt.savefig('p4_logistic_model_%ddays_mult.png' % steps, dpi=300, bbox_inches='tight')
 plt.show()

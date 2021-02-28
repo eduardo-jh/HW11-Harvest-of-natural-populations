@@ -23,7 +23,7 @@ mu_night = -0.1  # 1/day
 max_conc = 2 #  mg/L
 N0 = 0.1  # Nitrogen initial, moles/L
 P0 = 0.01  # Phophorous initial, moles/L
-CO20 = 0.1  # Carbon dioxide initial, moles/L
+CO20 = 1  # Carbon dioxide initial, moles/L
 
 r = 0.4477  # low density growth rate
 h = r/2  # harvest rate
@@ -90,5 +90,5 @@ plt.plot(growth_script['Time'], growth_script['mu'], 'c-', label='$\mu$')
 plt.legend(loc='best', fancybox=True)
 plt.xlabel('Time [days]')
 plt.ylabel('Concentration $K,P,CO_2$ [mole/L], C [mg/L]')
-plt.savefig('p5_algae_harvest_%ddays.png' % number_of_days, dpi=300, bbox_inches='tight')
+# plt.savefig('p5_algae_harvest_%ddays.png' % number_of_days, dpi=300, bbox_inches='tight')
 plt.show()

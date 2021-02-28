@@ -38,5 +38,5 @@ plt.legend(['Euler (dt=%.1f h)' % (dt*24), 'Euler (harvest h=%.4f)' % hr, 'Analy
 plt.title('HW11 Algae model with harvest')
 plt.xlabel('Time (days)')
 plt.ylabel('Population')
-plt.savefig('p4_logistic_model_%ddays_0.5K.png' % steps, dpi=300, bbox_inches='tight')
+# plt.savefig('p4_logistic_model_%ddays_0.5K.png' % steps, dpi=300, bbox_inches='tight')
 plt.show()
